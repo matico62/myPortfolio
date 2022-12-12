@@ -1,0 +1,72 @@
+header {
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 10px rgb(99, 99, 99);
+}
+
+.header-icon {
+    background-color: rgb(255, 0, 0);
+    width: 10%;
+}
+
+.header-icon img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.header-title {
+    width: 65%;
+    padding: 0 2%;
+}
+
+.header-title h1 a {
+    color: black;
+    text-decoration: none;
+}
+
+.header-profile {
+    width: 25%;
+    padding: 0 2%;
+    text-align: right;
+    word-wrap: break-word;
+}
+
+.header-name {
+    font-size: 1.5rem;
+}
+
+.header-mail a {
+    color: black;
+}
+
+@media screen and (max-width: 1200px) {
+    header {
+        display: block;
+    }
+
+    .header-icon {
+        width: 100%;
+    }
+    
+    .header-icon img {
+        width: 100%;
+        border-radius: 50%;
+    }
+    
+    .header-title {
+        width: 100%;
+        padding: 0 2%;
+    }
+    
+    .header-title h1 a {
+        color: black;
+        text-decoration: none;
+    }
+    
+    .header-profile {
+        width: 100%;
+        padding: 20px 2%;
+        text-align: center;
+        word-wrap: break-word;
+    }
+}

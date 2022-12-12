@@ -1,0 +1,16 @@
+footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+.footer-copylight {
+    display: flex;
+    background-color: #FF0000;
+    justify-content: center;
+    height: 60px;
+}
+
+.footer-copylight p {
+    color: #FFFFFF;
+}
